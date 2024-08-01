@@ -1,0 +1,35 @@
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 4vh;
+    height: 92vh;
+    overflow-y: auto;
+    div{
+        background-color: lightgray;
+        padding: 1vw;
+    }
+    img{
+        width: 20vw
+    }
+    h1{
+        width: 20vw;
+        text-align: center;
+    }
+}
+button{
+    background-color: blue;
+    border: none;
+    position: absolute;
+    border-radius: 50vw;
+    font-size: 1.5vw;
+    margin: 0.5vh 0;
+    padding: 0 2vh 0 2vh;
+    height: 6vh;
+}
+button#previous{
+    left: 30vw;
+}
+button#next{
+    right: 30vw;
+}
